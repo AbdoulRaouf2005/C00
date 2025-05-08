@@ -1,4 +1,3 @@
 #!/bin/bash
-affiche=$(ls)     #affectation de valeur du commande ls à la variable affiche
-echo $affiche     #affiche la valeur de la variable affiche
-exit 0            #mettre fin au programme
+ls -1           #utilisation de ls pour voire les fichiers du répertoire courant et -1 pour les affichés en format liste
+exit 0          #mettre fin au programme
