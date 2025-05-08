@@ -1,5 +1,5 @@
 #!/bin/bash
-read -p "Entrez le nom du fichier : " fichier           #affectation de la valeur mis par l'utilisateur
+fichier='Sample.txt'						#affectation de la valeur mis par l'utilisateur
 if [ -f "$fichier" ]; then                             #verification de l'existence du fichier
       echo "Le fichier '${fichier}' existe."           #si le fichier existe affichage du message
       exit 0                                           #mettre fin au programme
